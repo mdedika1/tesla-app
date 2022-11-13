@@ -24,7 +24,7 @@ kind: Service
 metadata:
   name: teslasvc
 spec:
-  type: Nodeport
+  type: NodePort
   selector:
      app: tesla-app
   ports:
