@@ -11,20 +11,21 @@ spec:
     metadata:
       name: tesla
       labels:
-        app: tesla
+        app: tesla-app
     spec:
       containers:
       - name: teslatry
         image: mdedika1/tesla-app:10
         ports:
-        - containerPort: 8080 
+        - containerPort: 8080
 ---
+
 apiVersion: v1
 kind: Service
 metadata:
   name: teslasvc
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
      app: tesla-app
   ports:
