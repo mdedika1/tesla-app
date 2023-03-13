@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.17.204.235:800/repository/mvn-releases//</url> 
+	      <url>http://18.206.48.22:1500/repository/tesla-app-releases//</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.17.204.235:800/repository/mvn-snapshots//</url>
+	      <url>http://18.206.48.22:1500/repository/tesla-aa-snapshots//</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
